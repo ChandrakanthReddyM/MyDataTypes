@@ -24,11 +24,17 @@ public class Mail {
 		char []emailID=emailID1;
 		char []password=password1;
 	}
+	public Mail(char []firstName1,char []lastName1)
+	{
+		char []firstName=firstName1;
+		char []lastName=lastName1;
+	}
+	public Mail(char []emailID1)
+	{
+		char []emailID=emailID1;
+	}
 	public Mail()
 	{
-		char []firstName={'-','-','-','-'};
-		char []lastName={'-','-','-','-'};
-		char []emailID={'-','-','-','-'};
-		char []password={'-','-','-','-'};
+		//Default your wish
 	}
 }

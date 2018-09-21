@@ -13,12 +13,12 @@ public class MovieTicket {
 		public void abc()
 		{
 		}
-		public MovieTicket(char []movieName1,double price1,int []seatNo1,char []theaterLocation1,
+		public MovieTicket(char []movieName1,double price1,int seatNo1,char []theaterLocation1,
 		char []theaterName1,char []typeOfSeat1,int noOfTickets1)
 		{
 			char []movieName=movieName1;
-			double price=price1=-1;
-			int []seatNo=seatNo1;
+			double price=price1;
+			int seatNo=seatNo1;
 			char []theaterLocation=theaterLocation1;
 			char []theaterName=theaterName1;
 			char []typeOfSeat=typeOfSeat1;
@@ -26,12 +26,6 @@ public class MovieTicket {
 		}
 		public MovieTicket()
 		{
-			char []movieName={'-','-','-','-'};
-			double price=-1;
-			int []seatNo={'-','-','-','-'};
-			char []theaterLocation={'-','-','-','-'};
-			char []theaterName={'-','-','-','-'};
-			char []typeOfSeat={'-','-','-','-'};
-			int noOfTickets=-1;
+			
 		}
 	}

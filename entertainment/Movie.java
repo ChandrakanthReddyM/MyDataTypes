@@ -29,14 +29,7 @@ public class Movie {
 		}
 		public Movie()
 		{
-			char []movieName={'-','-','-','-'};
-			char []director={'-','-','-','-'};
-			char []hero={'-','-','-','-'};
-			char []producer={'-','-','-','-'};
-			char []heroine={'-','-','-','-'};
-			int noOfSongs=-1;
-			double budget=-1;
-			double duration=-1;
+			//default
 		}
 	}
 

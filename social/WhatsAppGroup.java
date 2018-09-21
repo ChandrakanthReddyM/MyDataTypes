@@ -23,9 +23,5 @@ public class WhatsAppGroup {
 	}
 	public WhatsAppGroup()
 	{
-		char []groupName={'-','-','-','-'};
-		char []admin={'-','-','-','-'};
-		byte noOfParticipants=-1;
-		long []phoneNumber={'-','-','-','-'};
 	}
 }
